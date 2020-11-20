@@ -14,9 +14,13 @@
  * limitations under the License.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> af66408... init repo
+=======
+
+>>>>>>> af6640871b702d7a0cd4c6fd09873adad87b6ebd
 import java.net.*;
 import java.io.*;
 import java.nio.channels.*;
@@ -30,10 +34,14 @@ public class MavenWrapperDownloader {
      */
     private static final String DEFAULT_DOWNLOAD_URL = "https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/"
 <<<<<<< HEAD
+<<<<<<< HEAD
         + WRAPPER_VERSION + "/maven-wrapper-" + WRAPPER_VERSION + ".jar";
 =======
             + WRAPPER_VERSION + "/maven-wrapper-" + WRAPPER_VERSION + ".jar";
 >>>>>>> af66408... init repo
+=======
+            + WRAPPER_VERSION + "/maven-wrapper-" + WRAPPER_VERSION + ".jar";
+>>>>>>> af6640871b702d7a0cd4c6fd09873adad87b6ebd
 
     /**
      * Path to the maven-wrapper.properties file, which might contain a downloadUrl property to
@@ -63,10 +71,14 @@ public class MavenWrapperDownloader {
         File mavenWrapperPropertyFile = new File(baseDirectory, MAVEN_WRAPPER_PROPERTIES_PATH);
         String url = DEFAULT_DOWNLOAD_URL;
 <<<<<<< HEAD
+<<<<<<< HEAD
         if(mavenWrapperPropertyFile.exists()) {
 =======
         if (mavenWrapperPropertyFile.exists()) {
 >>>>>>> af66408... init repo
+=======
+        if (mavenWrapperPropertyFile.exists()) {
+>>>>>>> af6640871b702d7a0cd4c6fd09873adad87b6ebd
             FileInputStream mavenWrapperPropertyFileInputStream = null;
             try {
                 mavenWrapperPropertyFileInputStream = new FileInputStream(mavenWrapperPropertyFile);
@@ -78,10 +90,14 @@ public class MavenWrapperDownloader {
             } finally {
                 try {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if(mavenWrapperPropertyFileInputStream != null) {
 =======
                     if (mavenWrapperPropertyFileInputStream != null) {
 >>>>>>> af66408... init repo
+=======
+                    if (mavenWrapperPropertyFileInputStream != null) {
+>>>>>>> af6640871b702d7a0cd4c6fd09873adad87b6ebd
                         mavenWrapperPropertyFileInputStream.close();
                     }
                 } catch (IOException e) {
@@ -93,12 +109,17 @@ public class MavenWrapperDownloader {
 
         File outputFile = new File(baseDirectory.getAbsolutePath(), MAVEN_WRAPPER_JAR_PATH);
 <<<<<<< HEAD
+<<<<<<< HEAD
         if(!outputFile.getParentFile().exists()) {
             if(!outputFile.getParentFile().mkdirs()) {
 =======
         if (!outputFile.getParentFile().exists()) {
             if (!outputFile.getParentFile().mkdirs()) {
 >>>>>>> af66408... init repo
+=======
+        if (!outputFile.getParentFile().exists()) {
+            if (!outputFile.getParentFile().mkdirs()) {
+>>>>>>> af6640871b702d7a0cd4c6fd09873adad87b6ebd
                 System.out.println(
                         "- ERROR creating output directory '" + outputFile.getParentFile().getAbsolutePath() + "'");
             }

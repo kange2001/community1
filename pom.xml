@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
@@ -51,6 +52,8 @@
 		</plugins>
 	</build>
 =======
+=======
+>>>>>>> af6640871b702d7a0cd4c6fd09873adad87b6ebd
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
@@ -99,6 +102,9 @@
             </plugin>
         </plugins>
     </build>
+<<<<<<< HEAD
 >>>>>>> af66408... init repo
+=======
+>>>>>>> af6640871b702d7a0cd4c6fd09873adad87b6ebd
 
 </project>
